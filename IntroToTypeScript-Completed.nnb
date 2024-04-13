@@ -2199,7 +2199,7 @@
         {
             "language": "typescript",
             "source": [
-                "//Answer\ntype CTStudent = {\n    id: string;\n    name: string;\n    age: number;\n    isTired: boolean;\n    projectsCompleted: string[];\n    pet?: string;\n};\n"
+                "//Answer\ntype CTStudent = {\n    id: string;\n    name: string;\n    age: number;\n    isTired: boolean;\n    projectsCompleted: string[];\n    pet?: string;\n};\n\nlet student1: CTStudent = {\n    id: 'GMK435&g62L00',\n    name: 'John Smith',\n    age: 24,\n    isTired: true,\n    projectsCompleted:[\"HTML Portfolio\", \"Fakebook\", \"Pokemon API Project\", \"Weather Bug\"],\n    pet: 'dog'\n}\n\nlet student2: CTStudent= {\n    id: '6KGS%54GmlY76',\n    name: 'Jenny Hawthorne',\n    age: 28,\n    isTired: false,\n    projectsCompleted:[\"HTML Portfolio\"],\n}\n\nlet student3: CTStudent = {\n    id: '6KGS%54GmlY76',\n    name: 'Neo',\n    age: 57,\n    isTired: true,\n    projectsCompleted:[\"Matrix\",\"Biological Interface Program\"],\n    pet:'cat'\n}\n"
             ],
             "outputs": []
         },
